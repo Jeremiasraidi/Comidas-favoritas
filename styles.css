@@ -1,0 +1,79 @@
+/* Reseteo básico para que se vea igual en todos los navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Contenedor central responsivo */
+.contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Hace que la imagen sea responsive (se adapta al tamaño de la pantalla) */
+.imagen-comida {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Estilos de la lista */
+.seccion-lista {
+    margin-bottom: 25px;
+}
+
+.seccion-lista h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #e67e22;
+}
+
+.seccion-lista ol {
+    padding-left: 25px;
+    font-size: 1.1rem;
+}
+
+.seccion-lista li {
+    margin-bottom: 8px;
+}
+
+/* Estilos iniciales del botón */
+.btn-accion {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db; /* Color azul inicial */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    /* Transición suave para el cambio de color */
+    transition: background-color 0.3s ease; 
+}
+
+/* Efecto hover: Cambia el color cuando el mouse pasa por encima */
+.btn-accion:hover {
+    background-color: #2ecc71; /* Cambia a color verde */
+}
