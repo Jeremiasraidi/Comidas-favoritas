@@ -57,23 +57,23 @@ header h1 {
     margin-bottom: 8px;
 }
 
-/* Estilos iniciales del botón */
+/* Estilos pa'l boton */
 .btn-accion {
     display: block;
     width: 100%;
     padding: 15px;
-    background-color: #3498db; /* Color azul inicial */
+    background-color: #db3434; /* Color azul inicial */
     color: #ffffff;
     border: none;
     border-radius: 5px;
     font-size: 1.1rem;
     font-weight: bold;
     cursor: pointer;
-    /* Transición suave para el cambio de color */
+    /* Que la trancision sea suave*/
     transition: background-color 0.3s ease; 
 }
 
-/* Efecto hover: Cambia el color cuando el mouse pasa por encima */
+/* Efecto hover: Cambia el color cuando el mouse pasa por encima (literalmente hizo un short solo para expicar esto, ¿es enserio?) */
 .btn-accion:hover {
-    background-color: #2ecc71; /* Cambia a color verde */
+    background-color: #2ecc71; /* Cambia el color verde */
 }
