@@ -62,8 +62,8 @@ header h1 {
     display: block;
     width: 100%;
     padding: 15px;
-    background-color: #db3434; /* Color azul inicial */
-    color: #ffffff;
+    background-color: #ff1616; /* Color rojo inicial */
+    color: #ff2828;
     border: none;
     border-radius: 5px;
     font-size: 1.1rem;
